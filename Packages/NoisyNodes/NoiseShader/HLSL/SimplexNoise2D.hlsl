@@ -131,7 +131,7 @@ void SimplexNoise2D_float(float2 input, out float Out)
     Out = snoise(input);
 }
 
-void SimplexNoise2DGradient_float(float2 input, out float Out)
+void SimplexNoise2DGradient_float(float2 input, out float3 Out)
 {
     Out = snoise_grad(input);
 }
